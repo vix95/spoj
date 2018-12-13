@@ -1,0 +1,16 @@
+PP0602D - ROL (k)
+Przesuń elementy tablicy cyklicznie w lewo o zadaną liczbę miejsc.
+
+Input
+Najpierw dwie liczby n i k takie, że 1 < k < n < 10000, a następnie w kolejnym wierszu n liczb.
+
+Output
+W jednym wierszu n liczb w zmienionym porządku (przesuniętych cyklicznie o k miejsc).
+
+Example
+Input:
+5 3
+1 2 3 4 5
+
+Output:
+4 5 1 2 3

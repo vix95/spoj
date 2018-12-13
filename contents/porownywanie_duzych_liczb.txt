@@ -1,0 +1,19 @@
+KC015 - Porównywanie dużych liczb
+Napisz program, który sprawdza, czy pomiędzy daną parą liczb zachodzi podana relacja.
+
+Wejście
+Na wejście programu podana zostanie pewna nieokreślona liczba zestawów danych. Zestawy składają się z liczby naturalnej, po której następuje spacja, symbol relacji (==, !=, >= lub <=), spacja i druga liczba naturalna. Poszczególne zestawy zostaną rozdzielone znakiem nowej linii. Przyjmujemy, że żadna z liczb nie ma więcej niż 1000 cyfr.
+
+Wyjście
+Na wyjściu programu ma się pojawić ciąg zerojedynkowy, którego i-ty element jest równy 1 lub 0 w zależności od tego, czy relacja zawarta w i-tym wczytanym z wejścia zestawie danych jest prawdziwa czy fałszywa. Poszczególne elementy tego ciągu należy rozdzielić znakami nowej linii.
+
+Przykład
+Wejście:
+100 == 200
+200 <= 100
+200 >= 100
+
+Wyjście:
+0
+0
+1

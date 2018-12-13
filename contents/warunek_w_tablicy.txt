@@ -1,0 +1,60 @@
+PASTAB2 - Warunek w tablicy
+Napisz program, który wczyta n liczb całkowitych, a następnie wyświetli te, które spełniają podany warunek.
+
+Do wczytywania liczb wykorzystaj fragment rozwiązania poprzedniego zadania. Następnie wczywaj znak określający warunek i przejrzyj tablicę od początku do końca wypisując te elementy, które go spełniają.
+
+Wejście
+W pierwszym wierszu n < 1000. W kolejnych n wierszach liczby całkowite z zakresu typu longint. Następnie jeden wiersz postaci:
+
+< x, albo:
+> x
+Wskazówka: wczytaj znak oraz x po wczytaniu liczb tablicy instrukcją readln(znak, x); (zakładając znak: char oraz x:longint)
+
+var tab:array[1..1000] of longint;
+    i,ile:integer;
+    c:char;
+    x: longint;
+
+begin
+    readln(ile);
+    for i:=1 to ile do
+        readln(tab[i]);
+
+    readln(c, x);
+    if (c='>') then
+        {dla i od 1 do ile}
+             {jesli tab[i] jest wieksze od x}
+                   {wypisz tab[i]}
+
+    {jesli c = '<' to...}
+end.
+Wyjście
+Elementy z tablicy podanej na wejściu, które spełniają podany warunek.
+
+Przykład 1
+Wejście:
+5
+2
+7
+0
+6
+2
+> 4
+
+Wyjście:
+7 
+6
+Przykład 2
+Wejście:
+5
+2
+7
+0
+6
+2
+< 3
+
+Wyjście:
+2
+0
+2

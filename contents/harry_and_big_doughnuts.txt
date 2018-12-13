@@ -1,0 +1,25 @@
+DOUGHNUT - Harry and big doughnuts
+Młody Harry został poproszony o kupienie karmy dla kotów przez swoją sąsiadkę - starą, dziwną panią, która była właścicielką wielu kotów. Ale koty też były dziwne i jadały tylko pączki. Toteż sąsiadka chciała aby Harry przyniósł jej dokładnie po jednym pączku dla każdego kota - a posiadała ich c. Harry miał ze sobą plecak, ale że był tylko małym chłopcem, potrafił udźwignąć jedynie k kilogramów. Harry wiedział, że każdy pączek waży w kilogramów (duże koty, duże pączki). Pomóż Harremu zdecydować czy powinien iść do supermarketu i kupić żarcie, czy się po prostu poddać i pomarzyć o odrobinie magii...
+
+Wejście
+W pierwszej linii jedna dodatnia liczba całkowita t (t <= 100) oznaczająca ilość testów (Harry został poproszony o kupno pączków kilka razy). Następnie t linii, każda zawierająca 3 liczby: c, k oraz w (1 <= c, k, w <= 100) 
+
+t [liczba testów]
+c k w [liczba kotów, udźwig Harrego oraz waga pączka]
+c k w [następny test]
+...
+
+Wyjście
+t linii zawierających słowo "yes" jeśli Harry jest w stanie wykonać zadanie lub "no" jeśli pączki złamałyby Harremu kręgosłup.
+
+Przykład
+Wejście:
+3
+5 15 3
+1 5 4
+13 25 2
+
+Wyjście:
+yes
+yes
+no

@@ -1,0 +1,32 @@
+KC005 - Formularz
+Napisz program, który sprawdza, czy dany formularz osobowy został prawidłowo wypełniony. Formularze, których poprawność należy sprawdzić, mają postać:
+
+Imie: II; Nazwisko: NN; Data ur.: RRRR-MM-DD
+
+gdzie II jest napisem złożonym z co najwyżej 10 znaków, NN jest napisem złożonym z co najwyżej 20 znaków, RRRR jest 4-znakowym napisem, a MM i DD są 2-znakowymi napisami.
+
+Wejście
+Na wejście programu podana zostanie pewna nieokreślona liczba zestawów danych. Każdy z zestawów składa się z 3 rozdzielonych średnikiem napisów, o postaci opisanej powyżej (można przyjąć, że pola II, NN, RRRR, MM i DD składają się wyłącznie z czarnych znaków różnych od średnika). Poszczególne zestawy zostaną rozdzielone znakiem nowej linii.
+
+Wyjście
+Na wyjściu ma się pojawić ciąg liczbowy, którego i-ty wyraz jest równy:
+
+0, jeżeli i-ty wczytany z wejścia formularz nie zawiera poprawnego imienia; poprawne imiona zaczynają się od wielkiej litery, po której mogą nastąpić małe litery;
+1, jeżeli i-ty wczytany z wejścia formularz zawiera poprawne imię, a nie zawiera poprawnego nazwiska; poprawne nazwiska zaczynają się od wielkiej litery, po której następują małe litery;
+2, jeżeli i-ty wczytany z wejścia formularz zawiera poprawne imię i nazwisko, a nie zawiera poprawnej daty; w poprawnej dacie pole RRRR jest liczbą całkowitą z zakresu 1900-2000, pole MM jest liczbą całkowitą z zakresu 1-12, a pole DD liczbą całkowitą z zakresu 1-31;
+3, w pozostałych przypadkach.
+Poszczególne elementy tego ciągu należy rozdzielić znakiem nowej linii.
+
+Przykład
+Wejście:
+Imie: Roman; Nazwisko: Kowalski6; Data ur.: 1900-01-30
+Imie: Andrzej; Nazwisko: Kowal; Data ur.: 1899-10-10
+Imie: roman; Nazwisko: No-wak; Data ur.: 1099-11-12
+Imie: Alicja; Nazwisko: Nowak; Data ur.: 1990-01-01
+
+Wyjście:
+1
+2
+0
+3
+

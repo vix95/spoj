@@ -1,0 +1,20 @@
+PP0604A - Średnia arytmetyczna
+W tablicy n liczb całkowitych dodatnich znajdź tę, której wartość jest najbliższa warości średniej z wszystkich liczb.
+
+Input
+Najpierw t < 101 - liczba testów. W kolejnych liniach, dla każdego testu, liczba 0 < n < 100 i n liczb całkowitych dodatnich nie większych niż 100.
+
+Output
+Dla każdego testu, w kolejnych liniach, jedna liczba - pierwszy element tablicy, którego wartość jest najbliższa wartości średniej.
+
+Example
+Input:
+3
+4 1 2 3 4 
+4 4 3 2 1
+4 0 3 2 4
+
+Output:
+2
+3
+2

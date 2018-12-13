@@ -1,0 +1,29 @@
+WZP09_2F - XV
+W zasadzie do tego zadania mógłbym napisać bardzo długą porywającą epicką treść, którą można by czytać z zapartym tchem... ale postanowiłem, że tego nie zrobię.
+
+Twoim zadaniem jest sprawdzenie czy wczytana liczba całkowita dzieli się bez reszty przez 15.
+
+Wejście
+Na wejściu znajduje się nie więcej niż 1000 zestawów danych. Każdy zestaw danych zawiera jedną liczbę całkowitą n (n >= 0) składającą się z nie więcej niż tysiąca cyfr.
+
+Działanie programu należy zakończyć po wczytaniu liczby n o wartości 0.
+
+Wyjście
+Dla każdego zestawu danych należy w osobnej linii wypisać TAK jeżeli liczba n dzieli się bez reszty przez 15 albo NIE w przeciwnym wypadku.
+
+Przykład
+Dla danych:
+
+5
+15
+45454545454545
+3330
+6665
+0
+Twój program powinien wypisać:
+
+NIE
+TAK
+TAK
+TAK
+NIE

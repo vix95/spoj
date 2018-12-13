@@ -1,0 +1,18 @@
+PROGC01 - Zliczanie linii
+Napisz program, który obliczy liczbę linii pojawiających się na wejściu.
+
+Wejście
+Plik tekstowy.
+
+Wyjście
+Liczba linii w pliku wejściowym.
+
+Przykład
+Wejście:
+ala
+ma
+
+kota
+
+Wyjście:
+4

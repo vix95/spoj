@@ -1,0 +1,84 @@
+PROGC02 - Zliczanie wystąpień (kody ASCII)
+Oblicz ilość poszczególnych kodów ASCII podanych na wejściu.
+
+Wejście
+Ciąg kodów ASCII.
+
+Wyjście
+ciąg par postaci
+
+c l,
+
+gdzie c jest numerem kodu ASCII, natomiast l jest liczbą wystąpień kodu c. Pary powinny znajdować się w oddzielnych liniach oraz powinny być posortowane względem kodów c. Jeśli dany kod ASCII nie pojawił się na wejściu, to nie należy odpowiedniej pary wypisywać na wyjściu.
+
+Przykład 1
+Wejście:
+f;gg;a23;r req; re....q rq
+reekkjkjk***7&&&$
+
+Wyjście:
+10 2
+32 3
+36 1
+38 3
+42 3
+46 4
+50 1
+51 1
+55 1
+59 4
+97 1
+101 4
+102 1
+103 2
+106 2
+107 4
+113 3
+114 5
+Przykład 2
+Wejście:
+753377 2007-03-31 18:03:10 Przecięcie w Zbiorze Odcinków	internal error 0.00 0k C++
+753059 2007-03-31 15:51:07 Przecięcie w Zbiorze Odcinków	wrong answer 0.25 5.6M C++
+
+Wyjście:
+9 2
+10 2
+32 20
+43 4
+45 4
+46 3
+48 15
+49 6
+50 3
+51 8
+53 7
+54 1
+55 7
+56 1
+57 1
+58 4
+67 2
+77 1
+79 2
+80 2
+90 2
+97 2
+98 2
+99 6
+100 2
+101 9
+103 1
+105 9
+107 3
+108 1
+110 6
+111 4
+114 10
+115 1
+116 1
+119 6
+122 4
+153 2
+179 2
+195 2
+196 2

@@ -1,0 +1,67 @@
+PASCHAR5 - Szyfrowanie ROT13
+Szyfr ROT
+Przeczytaj opis szyfrowania ROT13: http://pl.wikipedia.org/wiki/ROT13 .
+
+Napisz program, który będzie kodował wszystkie wprowadzone litery (małe i wielkie, ale tylko litery!) szyfrem ROT13. Natomiast wszystkie cyfry - analogicznym szyfrem ROT5. Możesz użyć poniższego szkieletu programu.
+
+var c : char;
+    numer : integer;
+
+begin
+
+    {w petli ma byc:
+      wczytywanie c (jest)
+      kodowanie malych liter (jest)
+      kodowanie wielkich liter (napisac)
+      kodowanie cyfr (napisac)
+
+       po zakodowaniu zmienna c ma zawierac albo 
+oryginalna wartosc (dla np. '+') albo zakodowana.
+
+      wypisanie c (jest)
+    }
+
+    while not eof() do
+    begin
+        read(c);
+
+        {male litery}
+        if (c>='a') and (c<='z') then
+        begin
+            {numer litery w alfabecie, dla 'a' = 0, dla 'b' =1, ..., 'z'=25 }
+            numer := ord(c) - ord('a');
+
+            {zakodowanie liczby - dodanie 13, i "zawiniecie" jesli numer}
+            {wykracza poza 'z' (numer 25) }
+            numer := (numer + 13) mod 26;
+
+            c:= chr(ord('a')+numer) ;
+        end;
+
+        {wielkie litery}
+
+        {cyfry}
+
+        write(c);
+    end;
+end.
+Możesz prześledzić działanie programu krok po kroku (F8). Aby śledzić wartości zmiennych użyj polecenia z menu Debug/Add Watch (i tam wpisz np. c lub numer).
+
+Wejście
+Dane tekstowe.
+
+Wyjście
+Tekst źródłowy zaszyfrowany: litery szyfrem ROT13, cyfry szyfrem ROT5.
+
+Przykład
+Uwaga - wprowadzanie z klawiatury zakończ ctrl-z (windows) lub ctrl-d (unix/linux).
+
+Wejście:
+Hello World!
+DAS23dsaf 31 24+ 2314 3-'[;
+Panie Prezesie toniemy w dlugach!
+
+Wyjście:
+Uryyb Jbeyq!
+QNF78qfns 86 79+ 7869 8-'[;
+Cnavr Cermrfvr gbavrzl j qyhtnpu!

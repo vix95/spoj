@@ -1,0 +1,17 @@
+KC010 - Zliczanie liczb i wyrazów
+Napisz program, który liczy, ile wyrazów i liczb znajduje się w podanej linii.
+
+Wejście
+Na wejście programu podana zostanie pewna nieokreślona ilość zestawów danych. Poszczególne zestawy składają sie z liczb całkowitych i wyrazów (wyraz = ciąg liter) rozdzielonych spacjami oraz kończą się znakiem nowej linii.
+
+Wyjście
+Na wyjściu ma się pojawić ilość liczb i wyrazów znajdujących się w poszczególnych liniach. Ilość liczb należy oddzielić spacją od ilości wyrazów, a po ilości wyrazów ma się pojawić znak nowej linii.
+
+Przykład
+Wejście:
+Romek ma 2 koty i 3 psy
+2 plus 2 jest rowne 4
+
+Wyjście:
+2 5
+3 3

@@ -1,0 +1,5 @@
+AL_17_01 - Mundial 2014
+
+Twoim zadaniem jest napisać program, który wypisze na standardowe wyjście: Mundial 2014
+
+Zadanie wydaje się bardzo łatwe, i takie jest. Jedyna niedogodność, to zakaz używania cyfr [0-9] w kodzie źródłowym. 
